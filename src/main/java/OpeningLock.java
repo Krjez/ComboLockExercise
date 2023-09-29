@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import static java.lang.System.exit;
 
 public class OpeningLock {
 
@@ -17,6 +18,7 @@ public class OpeningLock {
                     guess = OpeningLock.input();
                     if(lock.turnRight(guess)){
                         System.out.println("You opened the lock! Congratulations");
+                        System.exit(0);
                     }
                 }
             }

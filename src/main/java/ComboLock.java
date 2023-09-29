@@ -2,9 +2,9 @@ import java.util.Random;
 
 public class ComboLock {
     Random rand = new Random();
-    private int secret1 = 10; //rand.nextInt(0,40);
-    private int secret2 = 20 //rand.nextInt(0, 40);
-    private int secret3 = 30; //rand.nextInt(0, 40);
+    private int secret1 = rand.nextInt(0,40);
+    private int secret2 = rand.nextInt(0, 40);
+    private int secret3 = rand.nextInt(0, 40);
     private boolean state1 = false;
     private boolean state2 = false;
     private boolean state3 = false;
